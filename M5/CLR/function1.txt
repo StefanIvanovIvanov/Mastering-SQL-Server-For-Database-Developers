@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClassLibrary1
+{
+    public class NDT_Class
+    {
+        public static string NDT_Concat(string a , string b)
+        {
+            string s= a + "_NDT_" + b;
+            return s;
+        }
+
+
+        public  static int NDT_Sum(int a , int b)
+        {
+            int i = a + b;
+            return i;
+        }
+    }
+}
